@@ -102,6 +102,7 @@ class FacebookLogin extends React.Component {
         appId,
         xfbml,
         cookie,
+        status: true,
       });
       this.setStateIfMounted({ isSdkLoaded: true });
       if (autoLoad || this.isRedirectedFromFb()) {
